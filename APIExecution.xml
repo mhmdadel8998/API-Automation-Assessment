@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testing-1.0.dtd">
+<suite name = "All API Tests Suite">
+    <test verbose="2" preserve-order="true" name="All API Tests">
+        <classes>
+            <class name="CreateTokenTest"/>
+            <class name="CreateBookingTest"/>
+            <class name="GetAllBookingsTest"/>
+        </classes>
+    </test>
+
+</suite>
