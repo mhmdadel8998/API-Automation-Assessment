@@ -32,8 +32,7 @@ Ensure the following are installed on your machine:
 
 Clone the project repository from GitHub:
 ```bash
-$ git clone <repository_url>
-$ cd <repository_folder>
+$ git clone https://github.com/mhmdadel8998/API-Automation-Assessment.git
 ```
 
 ### **3. Import the Project**
@@ -49,13 +48,12 @@ $ cd <repository_folder>
 ### **1. Configure Test Data**
 
 - **JSON-based Test Data**: Ensure `data.json` or equivalent file is updated with valid test data.
-- **Excel-based Test Data**: Place your Excel file in the designated folder, and ensure the code reads data correctly.
 
 ### **2. Run the Tests**
 
 #### Using IDE:
 1. Navigate to the `test` package.
-2. Right-click on the TestNG test class or suite file (e.g., `testng.xml`).
+2. Right-click on the TestNG test class or suite file (e.g., `APIExecution.xml`).
 3. Select **Run As > TestNG Suite**.
 
 #### Using Maven:
@@ -85,28 +83,5 @@ $ mvn clean test
 
 ---
 
-## **Reports**
 
-After execution, the reports are generated in the following locations:
-
-- **Extent Reports**: `target/reports/ExtentReport.html`
-- **Allure Reports**:
-  1. Generate report by running:
-     ```bash
-     $ allure serve target/allure-results
-     ```
-  2. Open the generated report in a browser.
-
----
-
-## **Clean Code Guidelines**
-
-- Follow Java naming conventions.
-- Use meaningful variable and method names.
-- Write comments for better readability.
-- Modularize test cases into reusable methods.
-
----
-
-For any issues or questions, refer to the project documentation or contact the project maintainer.
 
